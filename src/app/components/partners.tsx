@@ -10,7 +10,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
             <div className="flex-none">
@@ -19,7 +18,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
             <div className="flex-none">
@@ -28,7 +26,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
             <div className="flex-none">
@@ -37,7 +34,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
             <div className="flex-none">
@@ -46,7 +42,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
             <div className="flex-none">
@@ -55,7 +50,6 @@ const Partners: React.FC = () => {
                     alt={""}
                     width={125}
                     height={125}
-                    layout="fixed"
                 />
             </div>
         </div>
