@@ -19,12 +19,12 @@ const Header: React.FC = () => {
 
                 {/* Links on the right */}
                 <nav className="flex items-center space-x-10">
-                    <a href="#" className={`cursor-pointer text-black ${pathname === '/' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>Home</a>
-                    <a href="#" className={`cursor-pointer text-black ${pathname === '/about' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>About</a>
+                    <a href="#" className={`cursor-pointer ${pathname === '/' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>Home</a>
+                    <a href="#" className={`cursor-pointer ${pathname === '/about' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>About</a>
 
                     {/* Dropdown */}
                     <div className="relative group">
-                        <p className={`cursor-pointer text-black ${pathname === '/programs' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
+                        <p className={`cursor-pointer ${pathname === '/programs' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
                             Program
                         </p>
                         <ul className="absolute hidden bg-white text-black p-3 space-y-2 group-hover:block shadow-md rounded-md transition-all duration-300">
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div className="relative group">
-                        <a href="#" className={`cursor-pointer text-black ${pathname === '/stakeholders' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
+                        <a href="#" className={`cursor-pointer ${pathname === '/stakeholders' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
                             Stakeholders
                         </a>
                         <ul className="absolute hidden bg-white text-black p-3 space-y-2 group-hover:block shadow-md rounded-md transition-all duration-300">
