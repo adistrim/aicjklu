@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <div className="border-t border-[#f5b051] mt-8 pt-4">
                 <div className='text-center flex justify-between'>
                     <p className="text-sm text-black">
-                        © 2024 Atal Incubation Centre (AIC)
+                        © 2024 Atal Incubation Center (AIC)
                     </p>
                     <div className="mb-4 flex">
                         <a href="#" target="_blank" rel="noopener noreferrer">
