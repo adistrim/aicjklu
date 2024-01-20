@@ -2,7 +2,7 @@ import React from 'react';
 
 const Impact: React.FC = () => {
     return (
-        <div className="py-12 mt-[35rem] mr-[10rem] ml-[10rem] bg-white">
+        <div className="py-12 mt-[35rem] mr-[10rem] border-t border-[#f5b051] ml-[10rem] bg-white">
             <div className="container mx-auto">
                 <h2 className="text-4xl font-bold mb-8 text-center">Our Impact</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
