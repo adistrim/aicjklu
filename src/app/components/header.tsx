@@ -31,18 +31,18 @@ const Header: React.FC = () => {
 
                     {/* Dropdown */}
                     <div className="relative group">
-                        <p className={`cursor-pointer ${pathname === '/programs' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
+                        <p className={`cursor-pointer ${pathname === '/incubation-program' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'} ${pathname === '/accelerator-program' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'} ${pathname === '/SAIP' ? 'text-[#f5b051]' : 'hover:text-[#f5b051]'}`}>
                             Programs
                         </p>
                         <ul className="absolute hidden bg-white text-black p-3 space-y-2 group-hover:block shadow-md rounded-md transition-all duration-300">
                             <li>
-                                <a href="#" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">Incubation Program</a>
+                                <a href="/incubation-program" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">Incubation Program</a>
                             </li>
                             <li>
-                                <a href="#" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">Accelerator Program</a>
+                                <a href="/accelerator-program" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">Accelerator Program</a>
                             </li>
                             <li>
-                                <a href="#" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">SAIP</a>
+                                <a href="/SAIP" className="block px-2 py-2 hover:text-[#f5b051] whitespace-nowrap">SAIP</a>
                             </li>
                         </ul>
                     </div>
