@@ -80,7 +80,7 @@ const Header: React.FC = () => {
 
             {/* Sidebar - Mobile View */}
             {menuOpen && (
-                <div ref={sidebarRef} className="lg:hidden fixed top-0 right-0 h-full w-1/2 bg-white p-4 shadow-md z-50 overflow-y-auto">
+                <div ref={sidebarRef} className=" md:hidden lg:hidden fixed top-0 right-0 h-full w-1/2 bg-white p-4 shadow-md z-50 overflow-y-auto">
                     <a href="/about" className="block py-2 hover:text-[#f5b051]">About</a>
                     <a href="/team" className="block py-2 hover:text-[#f5b051]">Team</a>
                     <a href="/mentors" className="block py-2 hover:text-[#f5b051]">Mentors</a>
