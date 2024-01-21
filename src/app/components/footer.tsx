@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="mr-[10rem] ml-[9rem] border-t border-[#f5b051] text-white py-12">
-            <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+        <footer className="mx-[1rem] md:mx-[5rem] lg:mx-[10rem] border-t border-[#f5b051] text-white py-12">
+            <div className="container mx-auto flex flex-col lg:flex-row justify-between">
                 <div className="lg:w-1/2 bg-white mb-8 p-10">
                     <div className="flex items-center mb-4">
                         <Image
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="lg:w-1/2 mb-8">
+                <div className="lg:w-1/2 mb-8 p-10">
                     <h3 className="text-3xl text-black font-bold mb-4">Contact Us</h3>
                     <p className="text-black">
                         AIC-JKLU, JK Lakshmipat University, Mahapura,<br />
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
 
-            <div className="border-t border-[#f5b051] mt-8 pt-4">
+            <div className="border-t border-[#f5b051] mx-[1rem] mt-8 pt-4">
                 <div className='text-center flex justify-between'>
                     <p className="text-sm text-black">
                         © 2024 Atal Incubation Center (AIC)
