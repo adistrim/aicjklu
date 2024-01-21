@@ -13,14 +13,14 @@ const HomeArea: React.FC = () => {
             >
             </Image>
 
-            <div className="absolute ml-[3rem] mt-[4rem] md:ml-[5rem] md:mt-[5rem] lg:ml-[10rem] lg:mt-[10rem]">
-                <h1 className="text-[1rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
+            <div className="absolute ml-[3rem] mt-[3.3rem] md:ml-[5rem] md:mt-[5rem] lg:ml-[10rem] lg:mt-[10rem]">
+                <h1 className="text-[1.2rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
                     Driving
                 </h1>
-                <h1 className="text-[1rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
+                <h1 className="text-[1.2rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
                     Innovation for
                 </h1>
-                <h1 className="text-[1rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
+                <h1 className="text-[1.2rem] md:text-[3rem] lg:text-[4rem] font-bold text-black">
                     a Better Future
                 </h1>
             </div>
