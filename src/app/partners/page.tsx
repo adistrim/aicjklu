@@ -8,12 +8,12 @@ const Partners: React.FC = () => {
         <div className="bg-gray-100">
             <Header />
             <div className="container mx-auto mx-[10rem] mt-[3rem] p-8 bg-white rounded-lg shadow-md mb-[3rem]">
-                <h2 className="text-4xl font-bold mb-8 text-center bg-[#f5b051] text-white p-4 rounded-md">Meet Our Partners</h2>
+                <h2 className="text-xl lg:text-4xl font-bold mb-8 text-center bg-[#f5b051] text-white p-4 rounded-md">Meet Our Partners</h2>
 
                 {/* Corporate & Academic Partners */}
                 <section className="mb-12">
-                <h3 className="text-2xl mx-[20rem] font-bold mb-4 bg-blue-400 text-white p-2 rounded-md text-center">Corporate & Academic Partners</h3>
-                    <div className="flex flex-wrap items-center justify-center space-x-8">
+                <h3 className="text:md lg:text-2xl lg:mx-[20rem] font-bold mb-4 bg-blue-400 text-white p-2 rounded-md text-center">Corporate & Academic Partners</h3>
+                    <div className="flex flex-wrap items-center justify-center">
                         <Image src="/niti-aayog.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/aim.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/DoITM.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
@@ -45,8 +45,8 @@ const Partners: React.FC = () => {
 
                 {/* Investment Partners */}
                 <section className="mb-12">
-                    <h3 className="text-2xl mx-[20rem] font-bold mb-4 bg-[#8cc152] text-white p-2 rounded-md text-center">Investment Partners</h3>
-                    <div className="flex flex-wrap items-center justify-center space-x-8">
+                    <h3 className="text-md lg:text-2xl lg:mx-[20rem] font-bold mb-4 bg-[#8cc152] text-white p-2 rounded-md text-center">Investment Partners</h3>
+                    <div className="flex flex-wrap items-center justify-center">
                         <Image src="/fundnest.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/rain.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/sinbe.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
@@ -57,8 +57,8 @@ const Partners: React.FC = () => {
 
                 {/* Peer Incubators */}
                 <section>
-                    <h3 className="text-2xl mx-[20rem] font-bold mb-4 bg-[#f36f6f] text-white p-2 rounded-md text-center">Peer Incubators</h3>
-                    <div className="flex flex-wrap items-center justify-center space-x-8">
+                    <h3 className="text-md lg:text-2xl lg:mx-[20rem] font-bold mb-4 bg-[#f36f6f] text-white p-2 rounded-md text-center">Peer Incubators</h3>
+                    <div className="flex flex-wrap items-center justify-center">
                         <Image src="/aic-muj.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/aic-gtu.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/ciie.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
@@ -69,8 +69,8 @@ const Partners: React.FC = () => {
 
                 {/* Technological Partners */}
                 <section className="mb-12">
-                    <h3 className="text-2xl mx-[20rem] font-bold mb-4 bg-[#65a9d7] text-white p-2 rounded-md text-center">Technological Partners</h3>
-                    <div className="flex flex-wrap items-center justify-center space-x-8">
+                    <h3 className="text-md lg:text-2xl lg:mx-[20rem] font-bold mb-4 bg-[#65a9d7] text-white p-2 rounded-md text-center">Technological Partners</h3>
+                    <div className="flex flex-wrap items-center justify-center">
                         <Image src="/zoho-one.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/aws.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
                         <Image src="/my-operator.png" alt="" width={100} height={100} className="m-2 rounded-lg" />
