@@ -29,7 +29,7 @@ const Header: React.FC = () => {
     }, [menuOpen]);
 
     return (
-        <header className="bg-white p-4">
+        <header className="bg-white p-4 border-b border-gray-200">
             {/* Logo on the left */}
             <div className='mx-auto md:mx-[5rem] lg:mx-[10rem] flex justify-between items-center'>
                 <div className="flex items-center">
