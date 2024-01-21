@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Offerings: React.FC = () => {
     return (
-        <div className='mx-[10rem] border-t border-[#f5b051]'>
+        <div className='mx-[1rem] md:mx-[5rem] lg:mx-[10rem] border-t border-[#f5b051]'>
             <div className="my-[5rem]">
                 <h2 className="text-3xl font-bold mb-6 text-center">Our Offerings</h2>
 
