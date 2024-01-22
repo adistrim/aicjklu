@@ -27,7 +27,7 @@ const ProgramCard: React.FC<{ title: string; description: string; href: string; 
 
 const Programs: React.FC = () => {
     return (
-        <div className="mx-[1rem] md:mx-[5rem]lg:mx-[10rem] mt-16 border-t border-[#f5b051]">
+        <div className="mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-16 border-t border-[#f5b051]">
             <div className='my-[4rem]'>
 
 
