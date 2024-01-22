@@ -18,7 +18,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Deep Industry Connects</h3>
-                        <p>Association with leading Industries Across India</p>
+                        <p className='font-thin text-sm'>Association with leading Industries Across India</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -31,7 +31,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Strategic Mentors</h3>
-                        <p>Sector Agnostic experts with proven track records & Experience</p>
+                        <p className='font-thin text-sm'>Sector Agnostic experts with proven track records & Experience</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -44,7 +44,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Disciplined Follow-ups</h3>
-                        <p>Aggressive weekly follow-ups, to enrich the speed of the growth for star-ups</p>
+                        <p className='font-thin text-sm'>Aggressive weekly follow-ups, to enrich the speed of the growth for star-ups</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -57,7 +57,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Media Visibility</h3>
-                        <p>Access to PR Agency of the Organisation & visibility through various events and media interaction</p>
+                        <p className='font-thin text-sm'>Access to PR Agency of the Organisation & visibility through various events and media interaction</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -70,7 +70,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Design Support</h3>
-                        <p>Association with leading Industries Across India</p>
+                        <p className='font-thin text-sm'>Association with leading Industries Across India</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -83,7 +83,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Investment Support</h3>
-                        <p>Access to Financial Assistance services, pitch preparation, Network Leverage for startups</p>
+                        <p className='font-thin text-sm'>Access to Financial Assistance services, pitch preparation, Network Leverage for startups</p>
                     </div>
 
                     <div className="p-4 bg-white rounded-md shadow-md h-full">
@@ -96,7 +96,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Accesses to Government Schemes</h3>
-                        <p>Association with leading Industries Across India</p>
+                        <p className='font-thin text-sm'>Association with leading Industries Across India</p>
                     </div>
 
 
@@ -110,7 +110,7 @@ const Offerings: React.FC = () => {
                             />
                         </div>
                         <h3 className="text-xl text-[#f7a028] font-bold mb-2">Legal & Statutory Support</h3>
-                        <p>Access to the Legal team, helping with due Diligence, Company registration, IPR Filling, etc.</p>
+                        <p className='font-thin text-sm'>Access to the Legal team, helping with due Diligence, Company registration, IPR Filling, etc.</p>
                     </div>
 
                 </div>
