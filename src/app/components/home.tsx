@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomeArea: React.FC = () => {
     return (
-        <div className="bg-white relative">
+        <div className="bg-white relative md:static">
             <Image
                 className="absolute top-0 left-0 z-[-1]"
                 src={"/banner.png"}
