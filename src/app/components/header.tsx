@@ -37,17 +37,17 @@ const Header: React.FC = () => {
                         <img
                             src="aic-logo-text.png"
                             alt="Logo"
-                            className="h-14 m-1 my-0.5"
+                            className="h-9 md:h-14 m-1 my-0.5"
                         />
                     </a>
                 </div>
 
                 {/* Hamburger menu */}
                 <div className="block md:hidden lg:hidden">
-                    <button onClick={toggleMenu} className="navbar-burger flex flex-col items-center py-2 px-3 text-[#f5b051] rounded border border-[#f5b051]">
-                        <span className="block w-6 h-1 bg-[#f5b051] rounded"></span>
-                        <span className="block w-6 h-1 bg-[#f5b051] mt-1 rounded"></span>
-                        <span className="block w-6 h-1 bg-[#f5b051] mt-1 rounded"></span>
+                    <button onClick={toggleMenu} className="navbar-burger flex flex-col items-center py-1.5 px-2 text-[#f58b40] rounded border border-[#f58b40]">
+                        <span className="block w-5 h-[0.15rem] bg-[#f58b40] rounded"></span>
+                        <span className="block w-5 h-[0.15rem] bg-[#f58b40] mt-[0.25rem] rounded"></span>
+                        <span className="block w-5 h-[0.15rem] bg-[#f58b40] mt-[0.25rem] rounded"></span>
                     </button>
                 </div>
 
