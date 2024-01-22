@@ -19,15 +19,15 @@ const ProgramCard: React.FC<{ title: string; description: string; href: string; 
                     className="rounded-md"
                 />
             </div>
-            <h3 className="text-2xl font-bold mb-2">{title}</h3>
-            <p className="text-gray-700 font-thin">{description}</p>
+            <h3 className="text-2xl font-bold mb-2 text-lg">{title}</h3>
+            <p className="text-gray-700 font-thin text-sm">{description}</p>
         </div>
     </Link>
 );
 
 const Programs: React.FC = () => {
     return (
-        <div className="mx-[10rem] mt-16 border-t border-[#f5b051]">
+        <div className="mx-[1rem] md:mx-[5rem]lg:mx-[10rem] mt-16 border-t border-[#f5b051]">
             <div className='my-[4rem]'>
 
 
