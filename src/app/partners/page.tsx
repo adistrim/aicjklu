@@ -7,7 +7,7 @@ const Partners: React.FC = () => {
     return (
         <div className="bg-gray-100">
             <Header />
-            <div className="container mx-auto mx-[10rem] mt-[3rem] p-8 bg-white rounded-lg shadow-md mb-[3rem]">
+            <div className="container mx-auto mx-[10rem] md:mt-[1.5rem] lg:mt-[3rem] p-8 bg-white rounded-lg shadow-md mb-[3rem]">
                 <h2 className="text-xl lg:text-4xl font-bold mb-8 text-center bg-[#f5b051] text-white p-4 rounded-md">Meet Our Partners</h2>
 
                 {/* Corporate & Academic Partners */}
